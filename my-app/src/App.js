@@ -1,10 +1,14 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+import { Route} from 'react-router-dom';
+import { Router} from 'react-router-dom';
 import { ChakraProvider } from "@chakra-ui/react";
 import IntroductionPage from "./IntroductionPage";
 import DataPage from "./DataPage";
 import ContactPage from "./ContactPage";
 import Header from "./components/Header";
+
+
 
 function App() {
   return (
