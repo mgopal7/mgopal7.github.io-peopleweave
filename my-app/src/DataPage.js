@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Container, Heading, Table, Tbody, Tr, Th, Td } from '@chakra-ui/react';
 import Papa from 'papaparse';
+import './DataPage.css';
+
+
 
 function DataPage() {
   const [data, setData] = useState([]);
@@ -22,7 +25,7 @@ function DataPage() {
         My Data
       </Heading>
       {data && data.length > 0 ? (
-        <Table variant="simple">
+        <Table variant="simple" className='data-table'>
           <Tbody>
             <Tr>
               {Object.keys(data[0]).map((header) => (
