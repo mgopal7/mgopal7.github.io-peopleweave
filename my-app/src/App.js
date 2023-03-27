@@ -11,19 +11,6 @@ function App() {
     <ChakraProvider>
       <Router>
         <Header />
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Introduction</Link>
-            </li>
-            <li>
-              <Link to="/data">Data</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
         <Switch>
           <Route exact path="/" component={IntroductionPage} />
           <Route path="/data" component={DataPage} />

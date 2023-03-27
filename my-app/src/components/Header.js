@@ -6,7 +6,7 @@ function Header() {
   return (
     <Flex bg="gray.200" p="4">
       <Link to="/">
-        <Heading>PeopleWeave</Heading>
+        <Heading>About Me</Heading>
       </Link>
       <Spacer />
       <Link to="/data">

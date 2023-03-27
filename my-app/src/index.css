@@ -1,13 +1,83 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #e8f4f8;
+  font-family: 'Satisfy', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 16px;
+  background-color: #b19cd9;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 16px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background-color: #f8bbd0;
+}
+
+.Container {
+  background-color: #f2d8a7;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #b19cd9;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.Table {
+  border: 2px solid #b19cd9;
+  border-collapse: collapse;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.Th {
+  border: 2px solid #b19cd9;
+  background-color: #f8bbd0;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+}
+
+.Td {
+  border: 2px solid #b19cd9;
+  padding: 8px;
+}
+
+.link {
+  color: #b19cd9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #f8bbd0;
+  text-decoration: underline;
 }
