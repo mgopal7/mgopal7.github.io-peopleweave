@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mgopal7.github.io-peopleweave/static/css/main.8d6af5f7.css",
+    "main.js": "/mgopal7.github.io-peopleweave/static/js/main.0b895b2f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/mgopal7.github.io-peopleweave/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/mgopal7.github.io-peopleweave/index.html",
+    "main.8d6af5f7.css.map": "/mgopal7.github.io-peopleweave/static/css/main.8d6af5f7.css.map",
+    "main.0b895b2f.js.map": "/mgopal7.github.io-peopleweave/static/js/main.0b895b2f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/mgopal7.github.io-peopleweave/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d6af5f7.css",
+    "static/js/main.0b895b2f.js"
+  ]
+}
