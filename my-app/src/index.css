@@ -3,6 +3,7 @@ body {
   font-family: 'Satisfy', cursive;
 }
 
+
 nav {
   display: flex;
   justify-content: center;
@@ -80,4 +81,9 @@ h1 {
 .link:hover {
   color: #f8bbd0;
   text-decoration: underline;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Dancing Script', cursive;
 }
