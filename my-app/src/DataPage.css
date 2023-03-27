@@ -1,4 +1,4 @@
-/* DataPage.css */
+/* DataPage.css
 
 table {
     border-collapse: collapse;
@@ -14,10 +14,10 @@ table {
   th {
     padding: 8px;
     text-align: left;
-  }
+  } */
   
   /* Add the following styles for sticky header */
-  
+/*   
   thead.sticky {
     position: sticky;
     top: 0;
@@ -32,5 +32,5 @@ width: 100%;
 th, td {
 text-align: left;
 }
-  
+   */
 
