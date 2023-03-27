@@ -6,7 +6,7 @@ function DataPage() {
   const [data, setData] = useState([]);
 
   async function fetchData() {
-    const response = await fetch('/data.csv'); // assuming the file is in the public directory
+    const response = await fetch('/Users/meghnagopalan/Desktop/mgopal7.github.io-peopleweave/my-app/public/data.csv'); // assuming the file is in the public directory
     const csvData = await response.text(); // read the CSV file as text
     const parsedData = Papa.parse(csvData, { header: true }).data; // parse the CSV string into an array of objects
     setData(parsedData);
