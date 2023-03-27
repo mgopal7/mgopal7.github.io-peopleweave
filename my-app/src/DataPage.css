@@ -1,0 +1,36 @@
+/* DataPage.css */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    position: sticky;
+    top: 0;
+    background: white;
+  }
+  
+  th {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Add the following styles for sticky header */
+  
+  thead.sticky {
+    position: sticky;
+    top: 0;
+    background: blue;
+  }
+   
+table {
+margin-left: 0;
+width: 100%;
+}
+
+th, td {
+text-align: left;
+}
+  
+
